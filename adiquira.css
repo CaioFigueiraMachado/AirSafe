@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #004a6e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-adquirir {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.purchase-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.purchase-section h1 {
+    font-size: 2rem;
+    color: #004a6e;
+    margin-bottom: 10px;
+}
+
+.purchase-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step {
+    background-color: #fff8dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.step h3 {
+    font-size: 1.2rem;
+    color: #004a6e;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.support-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.support-section h2 {
+    font-size: 1.8rem;
+    color: #004a6e;
+    margin-bottom: 10px;
+}
+
+.support-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.support-form input,
+.support-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.support-form button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-info {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.footer-info h3 {
+    font-size: 1.5rem;
+    color: #004a6e;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #004a6e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.btn-link {
+    display: inline-block;
+    background-color: #e63946; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #c5303e; 
+}
